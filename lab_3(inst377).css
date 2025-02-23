@@ -1,0 +1,96 @@
+body {
+    background-color: aqua;
+    font-family: "Papyrus";
+
+}
+
+.header-footer{
+    background-color: rgb(236, 138, 105);
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-family: cursive;
+    clear: both;
+    margin: auto;
+}
+
+#main-nav {
+    background-color: #D64933;
+    text-align: center;
+}
+
+#main-nav li:hover {
+    background-color: #7c7c7c;
+    color: white;
+}
+
+#main-nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#main-nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+
+#main-nav ul ul {
+    display: none;
+    position: absolute;
+}
+
+#main-nav li:hover ul {
+    display: block;
+    background-color: #D64933;
+    float: left;
+    position: absolute;
+    padding: 0;
+}
+
+.content-area {
+    width: 70%;
+    float: left;
+    margin: 0;
+}
+
+.content-box {
+    background-color: cornsilk;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.name-box {
+    background-color: cornsilk;
+}
+
+#contact-name:hover{
+    width: 75%;
+}
+
+#rules {
+    width: 25%;
+    margin-top: 1.2%;
+    margin-bottom: 2%;
+    float: right;
+    background-color: rgb(13, 165, 13);
+    margin-right: 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#rules:hover {
+    background-color: rgb(195, 86, 108);
+    color: white;
+}
+
+.main-container {
+    width: 100%;
+    height: 100%;
+    margin-left: 10px;
+}
+
+
